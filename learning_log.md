@@ -15,3 +15,11 @@
   - Create notebook template: EDA → baseline → eval → notes
 - Shipped:
   - Notebook template + README goal & success criteria
+Train/Val/Test:
+train — навчаємо, val — підбираємо налаштування, test — фінальна чесна оцінка.
+
+Leakage:
+коли модель “бачить” інформацію з майбутнього або з тесту під час навчання/підготовки даних.
+
+Metrics:
+для дисбалансу класів краще F1/ROC-AUC, а не тільки accuracy.
