@@ -40,6 +40,32 @@ Metrics:
 ## Day 3
 baseline as code (train_titanic.py) + report shipped.
 
+## Day 4
+- Topics:
+  - Threshold tuning: how changing the probability threshold shifts precision vs recall
+  - Comparing different baselines (LogReg vs RandomForest)
+- Practice:
+  - LogisticRegression v2 threshold sweep:
+    - t=0.3: precision=0.667, recall=0.812, f1=0.732, CM=[[82,28],[13,56]]
+    - t=0.5: precision=0.783, recall=0.681, f1=0.729, CM=[[97,13],[22,47]]
+    - Chosen threshold: t=0.3 (goal: reduce FN / catch more survivors)
+  - RandomForest baseline:
+    - t=0.5: Acc=0.8156, ROC-AUC=0.8332, CM=[[97,13],[20,49]]
+    - Threshold sweep highlights:
+      - t=0.4: precision=0.726, recall=0.768, f1=0.746, CM=[[90,20],[16,53]]
+- Shipped:
+  - `reports/day4.md` with threshold results + RF baseline comparison
+ 
+  ## Day 5
+- Topics:
+  - Cross-validation (StratifiedKFold) for more reliable evaluation
+  - Comparing models by mean ± std (stability)
+- Practice:
+  - 5-fold CV for LogisticRegression v2: ROC-AUC = 0.8561 ± 0.0206, Accuracy = 0.8002 ± 0.0166
+  - 5-fold CV for RandomForest: ROC-AUC = 0.8692 ± 0.0272, Accuracy = 0.8103 ± 0.0198
+- Shipped:
+  - `reports/day5.md` with CV results and interpretation
+
   
 
 
