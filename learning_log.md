@@ -65,6 +65,18 @@ baseline as code (train_titanic.py) + report shipped.
   - 5-fold CV for RandomForest: ROC-AUC = 0.8692 ± 0.0272, Accuracy = 0.8103 ± 0.0198
 - Shipped:
   - `reports/day5.md` with CV results and interpretation
+ 
+  ## Day 6
+- Topics:
+  - Feature engineering from text columns (extracting Title from Name)
+  - Validating improvements with 5-fold cross-validation (mean ± std)
+- Practice:
+  - Implemented Title feature (Mr/Mrs/Miss/Master/Other)
+  - 5-fold CV results:
+    - LR v3 (with Title): ROC-AUC = 0.8719 ± 0.0184, Accuracy = 0.8283 ± 0.0078
+    - RF v3 (with Title): ROC-AUC = 0.8704 ± 0.0262, Accuracy = 0.8103 ± 0.0115
+- Shipped:
+  - `reports/day6.md` with CV results + comparison vs Day 5
 
   
 
