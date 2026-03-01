@@ -78,6 +78,17 @@ baseline as code (train_titanic.py) + report shipped.
 - Shipped:
   - `reports/day6.md` with CV results + comparison vs Day 5
 
+  ## Day 7
+- Topics:
+  - Probability calibration (Platt scaling / sigmoid)
+  - Production-style threshold selection based on objective (F1 vs Recall)
+- Practice:
+  - Ran calibration and compared probability samples:
+    - Uncalibrated: [0.0714, 0.9589, 0.6063, 0.9466, 0.0733]
+    - Calibrated:   [0.0785, 0.9468, 0.5940, 0.9349, 0.0828]
+- Shipped:
+  - `reports/day7.md` (calibration notes + threshold selection plan)
+
   
 
 
