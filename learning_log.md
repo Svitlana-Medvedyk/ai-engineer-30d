@@ -88,6 +88,16 @@ baseline as code (train_titanic.py) + report shipped.
     - Calibrated:   [0.0785, 0.9468, 0.5940, 0.9349, 0.0828]
 - Shipped:
   - `reports/day7.md` (calibration notes + threshold selection plan)
+ 
+## Day 8
+- Topics:
+  - PyTorch fundamentals: tensors, autograd, nn.Module, loss, optimizer, DataLoader
+  - Training vs inference (when weights update vs when they don’t)
+- Practice:
+  - Trained MLP on FashionMNIST (CPU)
+  - Achieved test accuracy ~0.852 after 2 epochs
+- Shipped:
+  - `reports/day8.md` with model setup + results
 
   
 
