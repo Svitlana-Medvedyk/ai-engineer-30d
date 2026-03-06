@@ -99,6 +99,17 @@ baseline as code (train_titanic.py) + report shipped.
 - Shipped:
   - `reports/day8.md` with model setup + results
 
+  ## Day 9
+- Topics:
+  - CNN fundamentals: convolution, pooling, feature maps
+  - Fair model comparison (same dataset + similar training budget)
+- Practice:
+  - Trained SimpleCNN on FashionMNIST for 2 epochs
+  - Results: test_acc improved from MLP 0.8520 → CNN 0.8861 (+0.0341)
+- Shipped:
+  - `reports/day9.md` with CNN training results + comparison
+  - (Optional) `notebooks/09_cnn_fashionmnist.ipynb` uploaded to GitHub
+
   
 
 
