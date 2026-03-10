@@ -110,6 +110,19 @@ baseline as code (train_titanic.py) + report shipped.
   - `reports/day9.md` with CNN training results + comparison
   - (Optional) `notebooks/09_cnn_fashionmnist.ipynb` uploaded to GitHub
 
+ ## Day 10
+- Topics:
+  - Train/val/test split, overfitting vs underfitting
+  - Early stopping (patience) and checkpointing best model by val_loss
+  - Interpreting loss vs accuracy
+- Practice:
+  - Created split: train=54,000, val=6,000, test=10,000
+  - Trained CNN for 10 epochs with early stopping logic (patience=2)
+  - Best val_loss=0.2243, test_acc=0.9150
+- Shipped:
+  - `reports/day10.md` with logs + results + takeaways
+  - (Optional) updated notebook in `notebooks/10_early_stopping_validation.ipynb`
+
   
 
 
